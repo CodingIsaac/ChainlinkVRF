@@ -1,0 +1,84 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+############graph########################
+# dependencies
+graph/node_modules
+graph/.pnp
+graph/.pnp.js
+
+# testing
+graph/coverage
+
+# next.js
+graph/.next/
+graph/out/
+
+# production
+graph/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+graph/npm-debug.log*
+graph/yarn-debug.log*
+graph/yarn-error.log*
+graph/.pnpm-debug.log*
+
+# local env files
+graph/.env*.local
+
+# vercel
+graph/.vercel
+
+# typescript
+*.tsbuildinfo
+graph/next-env.d.ts
+
+
+
+
+############chainlink########################
+ChainlinkVRF/node_modules
+ChainlinkVRF/.env
+ChainlinkVRF/coverage
+ChainlinkVRF/coverage.json
+ChainlinkVRF/typechain
+ChainlinkVRF/typechain-types
+
+#Hardhat files
+ChainlinkVRF/cache
+ChainlinkVRF/artifacts
+
+.vscode
+
+
+###############my-app##########################
+my-app/node_modules
+my-app/.pnp
+my-app.pnp.js
+
+# testing
+my-app/coverage
+
+# next.js
+my-app/.next/
+my-app/out/
+
+# production
+my-app/build
+# debug
+my-app/npm-debug.log*
+my-app/yarn-debug.log*
+my-app/yarn-error.log*
+my-app/.pnpm-debug.log*
+
+# local env files
+my-app/.env*.local
+
+# vercel
+my-app/.vercel
+
+# typescript
+*.tsbuildinfo
+my-app/next-env.d.ts
